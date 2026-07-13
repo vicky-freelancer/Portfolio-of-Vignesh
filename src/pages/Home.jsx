@@ -148,7 +148,7 @@ const Home = ({ isDark }) => {
                                                 <span className="text-[9px] opacity-50 mt-1">/public/Vignesh.PNG</span>
                                             </div>
                                             <img
-                                                src="/public/Vignesh.PNG"
+                                                src="dist/Vignesh.PNG"
                                                 alt="Profile"
                                                 className="w-full h-full object-cover relative z-10"
                                                 onError={(e) => { e.target.style.display = 'none'; }}
