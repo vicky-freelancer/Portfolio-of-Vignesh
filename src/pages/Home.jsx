@@ -145,10 +145,10 @@ const Home = ({ isDark }) => {
                                             <div className="absolute inset-0 flex flex-col items-center justify-center text-cyber-400 font-mono text-center p-2 z-0">
                                                 <FiCode size={24} className="mb-2 opacity-50 animate-pulse" />
                                                 <span className="text-xs opacity-70">AWAITING_UPLOAD</span>
-                                                <span className="text-[9px] opacity-50 mt-1">/public/Vignesh.PNG</span>
+                                                <span className="text-[9px] opacity-50 mt-1">/Vignesh.PNG</span>
                                             </div>
                                             <img
-                                                src="dist/Vignesh.PNG"
+                                                src="/Vignesh.PNG"
                                                 alt="Profile"
                                                 className="w-full h-full object-cover relative z-10"
                                                 onError={(e) => { e.target.style.display = 'none'; }}
